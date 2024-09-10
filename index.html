@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árbol de Expresiones</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de arboles de expresiones.</h1>
+        <div class="input-container">
+            <input type="text" id="expresion" placeholder="Ingresa una operacion valida" />
+        </div>
+        <div class="button-container">
+            <button onclick="Arbol()">Generar Arbol</button>
+            <button onclick="eliminarArbol()">Eliminar Arbol</button>
+        </div>
+        <div id="advertencia" class="advertencia"></div>
+        <div id="graph-container" class="graph-container">
+            <div id="grafo"></div>
+            <div id="lineas"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
